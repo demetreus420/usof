@@ -1,0 +1,35 @@
+main {
+    padding: 4px;
+}
+
+.result-list {
+    list-style: none;
+    border: 1px solid black;
+    padding: 0;
+}
+
+.result-list__elem {
+
+    padding: 10px;
+    margin: 10px;
+    border: 1px dashed black;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    border: 1px dotted black;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.owner-name {
+    padding: 3px 8px 3px 8px;
+    border: 1px dotted black;
+}
+
+.question {
+    margin-left: 4px;
+    padding: 3px 10px 3px 10px;
+    border: 1px dotted black;
+}
